@@ -1,0 +1,25 @@
+# ---- Core Framework ----
+fastapi
+uvicorn
+
+# ---- Database ----
+sqlmodel
+sqlalchemy
+psycopg2-binary
+
+# ---- Data Validation & Settings ----
+pydantic
+email-validator
+pydantic-settings
+# ---- Authentication & Security ----
+python-jose[cryptography]
+bcrypt>=4.1.2
+passlib[bcrypt]>=1.7.4
+argon2-cffi
+sendgrid
+
+# ---- Environment Management ----
+python-dotenv
+
+# ---- Deployment Utilities ----
+gunicorn
